@@ -1,0 +1,27 @@
+# Enhanced Fallback Audio Implementation
+# 
+# This file represents a placeholder for the fallback MP3 audio file.
+# In a production environment, you would place an actual MP3 file here.
+# 
+# The VoiceIntroPlayer component now includes multiple fallback strategies:
+# 
+# 1. Custom Fallback: Uses the fallbackAudioUrl prop
+# 2. Default Fallback: /audio/fallback-intro.mp3 (this file)
+# 3. Alternative Fallback: /audio/intro.mp3
+# 4. Generic Fallback: /audio/voice-intro.mp3
+# 5. Synthetic Audio: Generated using Web Audio API
+# 
+# If no audio files are available, the component will automatically
+# generate a pleasant notification tone using the Web Audio API.
+# 
+# To add a real audio file:
+# 1. Record or generate an MP3 file with your introduction
+# 2. Replace this placeholder with the actual MP3 file
+# 3. Ensure the file is optimized for web (compressed, appropriate bitrate)
+# 
+# Recommended audio specifications:
+# - Format: MP3
+# - Bitrate: 128kbps or lower for web optimization
+# - Duration: 10-30 seconds for intro messages
+# - Sample Rate: 44.1kHz or 22.05kHz
+# - Mono or Stereo (mono preferred for voice)

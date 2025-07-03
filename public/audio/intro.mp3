@@ -1,0 +1,6 @@
+# Alternative Fallback Audio File
+# 
+# This is an alternative fallback audio file that the VoiceIntroPlayer
+# component will try if the primary fallback fails.
+# 
+# Replace this placeholder with an actual MP3 file for production use.

@@ -1,0 +1,6 @@
+# Generic Fallback Audio File
+# 
+# This is a generic fallback audio file that the VoiceIntroPlayer
+# component will try as a last resort before generating synthetic audio.
+# 
+# Replace this placeholder with an actual MP3 file for production use.
