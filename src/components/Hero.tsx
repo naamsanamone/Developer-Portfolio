@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion';
-import { Download, ChevronDown, Volume2, Square, Sparkles, Code, Database, Cloud, Cpu, Terminal, GitBranch, AlertCircle, RefreshCw } from 'lucide-react';
+import { Download, ChevronDown, Volume2, Square, Sparkles, Code, Database, Cloud, Cpu, Terminal, GitBranch, AlertCircle, RefreshCw, Github, Linkedin, Mail } from 'lucide-react';
 import { generateVoiceIntro, playAudio, testElevenLabsConnection, stopCurrentAudio, isAudioPlaying } from '../lib/elevenlabs';
 import { playClickSound, playVoiceSound, playDownloadSound } from '../lib/sounds';
 
